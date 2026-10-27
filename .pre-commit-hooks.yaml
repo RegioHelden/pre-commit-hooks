@@ -1,0 +1,8 @@
+---
+- id: check-managed-files
+  name: check-managed-files
+  description: reject changes to files that carry a managed-file marker
+  language: script
+  entry: hooks/check-managed-files.py
+  pass_filenames: false
+  stages: [pre-commit, pre-push]
