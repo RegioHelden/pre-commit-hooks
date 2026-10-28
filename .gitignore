@@ -1,5 +1,73 @@
-.idea/
-.venv/
-__pycache__/
-.ruff_cache/
-.pytest_cache/
+# -------------------------------------------------
+# Managed by modulesync - DO NOT EDIT
+# -------------------------------------------------
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+htmlcov
+
+# Translations
+*.mo
+
+# dev env
+.mr.developer.cfg
+.project
+.pydevproject
+.mypy_cache
+.ruff_cache
+.venv
+.ipython
+.bash_history
+compose.override.yaml
+
+# vscode
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+.devcontainer/devcontainer-lock.json
+
+# Language specific
+__pycache__
+*.pyc
+*.py[cod]
+*.sw*
+
+# Pycharm/Intellij
+.idea
+.pycharm_helpers
+
+# Complexity
+output/*.html
+output/*/index.html
+
+# Sphinx
+docs/_build
+
+# OS
+.bash_history
+
+# database
+db.sqlite3
