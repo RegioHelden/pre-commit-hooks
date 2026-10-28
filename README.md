@@ -105,6 +105,10 @@ To run them on the oldest supported Python:
 uv run --no-project --python 3.9 python -m unittest
 ```
 
+Every pull request needs a label, and the labels decide the next version: `bug` for a
+patch, `feature` or `enhancement` for a minor, `backwards-incompatible` for a major. To release, run the "Open release PR" workflow: it bumps `version` and
+`CHANGELOG.md`, and merging that pull request tags the release.
+
 ## License
 
 [MIT](LICENSE)

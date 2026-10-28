@@ -1,0 +1,20 @@
+---
+# a hooks repository, not a Django package
+.devcontainer/compose.yaml:
+  unmanaged: true
+.devcontainer/devcontainer.json:
+  unmanaged: true
+.github/workflows/build-and-publish.yaml:
+  unmanaged: true
+.vscode/tasks.json:
+  unmanaged: true
+Dockerfile:
+  unmanaged: true
+compose.yaml:
+  unmanaged: true
+example/__init__.py:
+  unmanaged: true
+manage.py:
+  unmanaged: true
+pyproject.toml:
+  unmanaged: true

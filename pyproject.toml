@@ -1,0 +1,9 @@
+[tool.ruff]
+target-version = "py39"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["A", "ANN2", "B", "BLE", "C4", "C90", "COM", "DTZ", "E", "ERA", "EXE", "F", "FLY", "FURB", "I", "INP", "ISC", "N", "PERF", "PGH", "PIE", "PL", "PTH", "Q", "RET", "RSE", "RUF", "S", "SIM", "SLOT", "T10", "T20", "TC", "TID", "UP", "W"]
+
+[tool.ruff.lint.pylint]
+max-args = 10
