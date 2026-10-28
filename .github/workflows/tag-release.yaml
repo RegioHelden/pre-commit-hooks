@@ -1,0 +1,24 @@
+# -------------------------------------------------
+# Managed by modulesync - DO NOT EDIT
+# -------------------------------------------------
+
+---
+name: Tag release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  # create a new git tag when a version update was merged to main branch
+  # see https://github.com/RegioHelden/github-reusable-workflows/blob/main/.github/workflows/tag-release.yaml
+  tag-release:
+    name: Create tag
+    permissions:
+      contents: write
+    uses: RegioHelden/github-reusable-workflows/.github/workflows/tag-release.yaml@v2.9.1
+    with:
+      python-version: "3.13"
+    secrets:
+      personal-access-token: "${{ secrets.COMMIT_KEY }}"
